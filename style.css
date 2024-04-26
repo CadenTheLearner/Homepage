@@ -1,0 +1,101 @@
+html, body{
+    height:100%;
+}
+body{
+    background:#ffffff;
+    text-align: center;
+    font-family:sans-serif;
+    padding:0 30px
+}
+h1{
+    margin-top:80px;
+    margin-bottom:125px;
+
+    font-size:100px;
+    color:rgb(0, 0, 0);
+    font-family: "Satisfy", cursive, sans-serif;
+}
+
+*/
+form{
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width: 75%;
+   font-size:32px;
+   float:center;
+   border:none;
+   padding:10px;
+   outline:none;
+   margin:5px 0;
+
+
+}
+.search-bar{
+   width: 75%;
+   float:center;
+}
+.submit-button{
+   width:0%;
+   background: rgb(65, 65, 65);
+   color:#FFF;
+}
+.bookmarks{
+   padding:30px;
+   clear:both;
+}
+.bookmarks i{
+   font-size:24px;
+   margin:0 30px;
+   color:#000;
+   line-height:32px;
+   transition:.2s;
+   text-decoration:none;
+   cursor: pointer;
+}
+.bookmarks i:hover{
+   color:#000;
+   font-size:28px;
+   line-height:26px;
+
+}
+.calculator{
+    position:absolute;
+    bottom:50px;
+    right:50px;
+}
+#calc{
+    transition:.2s;
+    opacity:0;
+}
+
+#note{
+    width:250px;
+    height:250px;
+    resize: none;
+    background:#6b696923;
+    padding:15px;
+    border:none;
+    position: absolute;
+    bottom:50px;
+    left:50px;
+    font-family:sans-serif;
+    outline:none;
+    transition:.2s;
+    opacity:0;
+}
+.bookmarks a{
+   text-decoration: none;
+}
+#clock {
+   position:absolute;
+   bottom:10px;
+   right:10px;
+}
+#stock {
+   position: absolute;
+   bottom:50px;
+   left:50px; 
+}
